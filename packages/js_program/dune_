@@ -5,6 +5,7 @@
   (libraries !{dune-libraries} !(package-dune-libraries))
   (modes js)
   !{dune-stanzas}
+  !(package-dune-stanzas)
   )
 
 (install
